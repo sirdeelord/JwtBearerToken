@@ -6,7 +6,7 @@ namespace AuthResources
     public class AuthResponse
     {
         public string token { get; set; }
-        public string expiresIn { get; set; }
+        public int expiresIn { get; set; }
         public string userName { get; set; }
     }
 }
