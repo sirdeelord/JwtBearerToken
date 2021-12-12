@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net5.0/jwtBearerToken.dll",
+            "program": "${workspaceFolder}/bin/Debug/net5.0/JwtBearerToken.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,

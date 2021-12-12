@@ -9,7 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
-namespace jwtBearerToken
+namespace JwtBearerToken
 {
     public class Startup
     {
@@ -27,7 +27,7 @@ namespace jwtBearerToken
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "jwtBearerToken", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "JwtBearerToken", Version = "v1" });
             });
 
             services.AddAuthentication(options => 
@@ -55,7 +55,7 @@ namespace jwtBearerToken
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "jwtBearerToken v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "JwtBearerToken v1"));
             }
 
             app.UseHttpsRedirection();

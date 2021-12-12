@@ -1,10 +1,10 @@
 
-using jwtBearerToken.AuthResources;
-using jwtBearerToken.Models;
+using JwtBearerToken.AuthResources;
+using JwtBearerToken.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace jwtBearerToken.Controllers
+namespace JwtBearerToken.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

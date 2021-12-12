@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace jwtBearerToken.Controllers
+namespace JwtBearerToken.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

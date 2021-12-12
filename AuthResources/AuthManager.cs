@@ -7,7 +7,7 @@ using System.Text;
 using AuthResources;
 using Microsoft.IdentityModel.Tokens;
 
-namespace jwtBearerToken.AuthResources
+namespace JwtBearerToken.AuthResources
 {
     public class AuthManager
     {

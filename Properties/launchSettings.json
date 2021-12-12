@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "jwtBearerToken": {
+    "JwtBearerToken": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

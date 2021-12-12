@@ -1,7 +1,7 @@
 
 using System;
 
-namespace jwtBearerToken.Models
+namespace JwtBearerToken.Models
 {
     [Serializable]
     public class AuthRequest
