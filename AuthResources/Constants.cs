@@ -1,4 +1,4 @@
-namespace AuthResources
+namespace JwtBearerToken.AuthResources
 {
     public class Constants
     {

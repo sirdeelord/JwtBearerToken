@@ -1,5 +1,5 @@
 using System.Text;
-using AuthResources;
+using JwtBearerToken.AuthResources;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,7 +23,6 @@ namespace JwtBearerToken
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,7 +44,6 @@ namespace JwtBearerToken
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Constants.SECRET_KEY))
                 };
             });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

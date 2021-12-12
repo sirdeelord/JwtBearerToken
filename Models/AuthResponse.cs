@@ -1,6 +1,6 @@
 using System;
 
-namespace AuthResources
+namespace JwtBearerToken.AuthResources
 {
     [Serializable]
     public class AuthResponse
